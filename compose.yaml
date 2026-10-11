@@ -1,0 +1,13 @@
+services:
+  gharkiraya:
+    build: .
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - gharkiraya-data:/data
+    environment:
+      DEMO_MODE: "false"
+      COOKIE_SECURE: "false"
+    restart: unless-stopped
+volumes:
+  gharkiraya-data:

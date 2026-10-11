@@ -1,0 +1,8 @@
+.tools
+data
+.git
+node_modules
+test-results
+*.exe
+*.test
+.env
