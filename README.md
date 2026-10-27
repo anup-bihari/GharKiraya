@@ -2,6 +2,14 @@
 
 A working rental marketplace for students, interns, and landlords. A Go HTTP server serves both the API and an embedded, responsive JavaScript frontend. No npm installation or external Go modules are required.
 
+## Android app
+
+The [`android/`](android/README.md) project builds an Android 8.0+ app that displays
+https://gharkiraya-ten.vercel.app/ with the website's mobile design and workflows.
+It includes session persistence, Android back navigation, connection recovery, and
+agreement downloads. Open `android/` in Android Studio, or follow its build instructions.
+The app uses the hosted website and requires internet access.
+
 ## Run on Windows
 
 Requires Go 1.25 or later. A project-local compiler, if present in `.tools/go/`, is used automatically.

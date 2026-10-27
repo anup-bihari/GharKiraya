@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GharKiraya</string>
+    <string name="website_url">https://gharkiraya-ten.vercel.app/</string>
+    <string name="connection_title">Let’s get you back home.</string>
+    <string name="retry">Try again</string>
+</resources>
